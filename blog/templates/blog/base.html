@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html dir="rtl" lang="fa">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +19,7 @@
                 <div class="navbar-nav mr-auto" id="navbar">
                     <a class="nav-item nav-link" id="homepage" href="{% url 'blog-home' %}">صفحه اصلی</a>
                     <a class="nav-item nav-link" id="login">ورود</a>
-                    <a class="nav-item nav-link" id="register">ثبت‌ نام</a>
+                    <a class="nav-item nav-link" id="register" href="{% url 'register' %}">ثبت‌ نام</a>
                 </div>
             </div>
         </nav>
